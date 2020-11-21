@@ -8,9 +8,9 @@ CREATE DATABASE burger_db;
 USE burger_db;
 
 -- Create the table tasks.
-CREATE TABLE burger (
+CREATE TABLE burgers (
   id int NOT NULL AUTO_INCREMENT,
-  burgerName varchar(255) NOT NULL,
+  burger_name varchar(255) NOT NULL,
   devoured BOOLEAN,
   PRIMARY KEY (id)
 );
